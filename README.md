@@ -1,1 +1,3 @@
 # Avatar-FANDOM-DE_Discord-Bot
+Bei diesem Projekt handelt es sich um einen inoffiziellen Discord-Bot zum deutschsprachigen Avatar-Fandom (https://avatar.fandom.com/de/wiki/Avatar-Wiki)
+Mehr Informationen folgen...
