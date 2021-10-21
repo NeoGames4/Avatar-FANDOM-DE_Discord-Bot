@@ -1,0 +1,132 @@
+{
+	"wiki": {
+		"name": "Wiki",
+		"commands": [
+			{
+				"title": "news",
+				"usage": "news",
+				"desc": "Gibt Neuigkeiten der Wiki-Startseite zurück",
+				"desc_long": "",
+				"aliases": [],
+				"examples": ["news"]
+			},
+			{
+				"title": "search",
+				"usage": "search <Suchbegriff>",
+				"desc": "Gibt Suchergebnisse aus dem Wiki zurück",
+				"desc_long": "",
+				"aliases": ["suche"],
+				"examples": ["search Aang", "suche Aang"]
+			},
+			{
+				"title": "get",
+				"usage": "get <Seite|Bild>",
+				"desc": "Gibt einen Artikel, eine Benutzerseite oder ein Bild aus dem Wiki wieder. Um eine Artikel-Kategorie zu laden, Artikelnamen und Kategorietitel mit einem '|' trennen",
+				"desc_long": "Gibt einen Artikel, eine Benutzerseite oder ein Bild aus dem Wiki wieder. Um eine Artikel-Kategorie zu laden, Artikelnamen und Kategorietitel mit einem '|' trennen. Es kann ein Fragezeichen als Argument angegeben werden, um einen zufälligen Artikel zu erhalten",
+				"aliases": ["artikel"],
+				"examples": ["get Aang", "get Benutzer:NeoGames4", "artikel Zuko|Geschichte", "get Aang beim Jasmin-Drachen.png"]
+			},
+			{
+				"title": "adm",
+				"usage": "adm",
+				"desc": "Gibt den Artikel des Monats zurück",
+				"desc_long": "",
+				"aliases": [],
+				"examples": ["adm"]
+			},
+			{
+				"title": "blogs",
+				"usage": "blogs",
+				"desc": "Gibt die letzten drei Blogbeiträge in einem Menü zurück",
+				"desc_long": "",
+				"aliases": ["blog"],
+				"examples": ["blogs"]
+			},
+			{
+				"title": "poll",
+				"usage": "poll",
+				"desc": "Gibt die aktuelle Wiki-Umfrage zurück",
+				"desc_long": "",
+				"aliases": ["umfrage"],
+				"examples": ["poll"]
+			},
+			{
+				"title": "guide",
+				"usage": "guide",
+				"desc": "Gibt eine Anfängerhilfe zurück",
+				"desc_long": "",
+				"aliases": [],
+				"examples": ["guide"]
+			},
+			{
+				"title": "layouts",
+				"usage": "layouts",
+				"desc": "Gibt Vorlagen beziehungsweise Layouts zu den jeweiligen Artikelthemen zurück",
+				"desc_long": "",
+				"aliases": [],
+				"examples": ["layouts"]
+			},
+			{
+				"title": "useful-links",
+				"usage": "useful-links",
+				"desc": "Gibt eine Liste vieler nützlicher Links zurück",
+				"desc_long": "",
+				"aliases": ["links"],
+				"examples": ["useful-links"]
+			},
+			{
+				"title": "top",
+				"usage": "top",
+				"desc": "Gibt die aktuelle Nutzer-Rangliste der Wikipedia zurück",
+				"desc_long": "",
+				"aliases": ["ranking"],
+				"examples": ["top"]
+			},
+			{
+				"title": "verify",
+				"usage": "verify [<Wiki-Nickname>]",
+				"desc": "Verifiziert den Besitz eines FANDOM-Accounts",
+				"desc_long": "Verifiziert den Besitz eines FANDOM-Accounts. Das Argument ist nur nötig, falls der Discord-Nickname nicht dem Wiki-Nicknamen entspricht. Des Weiteren werden durch das Auslassen des Argumentes weitere Informationen gelistet",
+				"aliases": [],
+				"examples": ["verify", "verify NeoGames4"]
+			},
+			{
+				"title": "discord",
+				"usage": "discord",
+				"desc": "Gibt einen Einladungslink zum offiziellen Discordserver des deutschsprachigen Avatar Wikis zurück",
+				"desc_long": "",
+				"aliases": [],
+				"examples": ["discord"]
+			},
+			{
+				"title": "stats",
+				"usage": "stats [<Statistik-ID>] [<Tage>]",
+				"desc": "Gibt Statistiken bezüglich des Wikis zurück. Lasse jegliche Argumente aus, um eine Übersicht über alle verfügbaren Statistiken zu erhalten",
+				"desc_long": "",
+				"aliases": [],
+				"examples": ["stats", "stats edits", "stats articles 60"]
+			},
+			{
+				"title": "wiki",
+				"usage": "wiki",
+				"desc": "Informiert über aktuelle Wiki-Aktivitäten",
+				"desc_long": "",
+				"aliases": [],
+				"examples": ["wiki"]
+			}
+		]
+	},
+	"category-id": {
+		"name": "Category-name",
+		"commands": [
+			{
+				"title": "",
+				"usage": "",
+				"desc": "",
+				"desc_long": "",
+				"aliases": [],
+				"examples": []
+			}
+		]
+	}
+}
